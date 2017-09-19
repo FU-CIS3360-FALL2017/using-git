@@ -2,9 +2,9 @@ DRAFT DOCUMENT
 
 https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-Git
 
-git clone xx
-git remote -v
-git branch -v
+git clone xx  
+git remote -v  
+git branch -v  
 git checkout chapter4
 Change or add files
 git add .
