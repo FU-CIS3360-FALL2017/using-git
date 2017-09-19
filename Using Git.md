@@ -5,8 +5,8 @@ https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-G
 
 ### Work Flow
 
-1. git 
-1. git 
+1. git config --global user.name "David Murrell" 
+1. git config --global user.email "dmurrell@faulkner.edu" 
 1. git clone https://github.com/FU-CIS3360-FALL2017/javajam-coffee-house-bp90347.git  
 1. git checkout chapter4  
 1. **Change or add files using local machine tools**  
