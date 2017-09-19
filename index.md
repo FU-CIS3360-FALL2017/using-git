@@ -11,10 +11,10 @@ DRAFT DOCUMENT
 1. git checkout chapter4  
 1. **Change or add files using local machine tools**  
 1. **Test application using local machine tools**
-1. git add .  
+1. git add *  
 1. git commit -m 'commit title'  
 1. git push origin chapter4
-1. **Inspect changs in GitHub**
+1. **Inspect changes in GitHub**
 
 ### Comfort Commands
 
