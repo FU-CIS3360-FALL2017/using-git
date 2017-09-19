@@ -1,19 +1,24 @@
 DRAFT DOCUMENT
-# Minimal Command Line git
-## Introduction
+## Minimal Command Line git
+### Introduction
 https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-Git 
 
-## Work Flow
+### Work Flow
 
+1. git 
+1. git 
 1. git clone https://github.com/FU-CIS3360-FALL2017/javajam-coffee-house-bp90347.git  
-1. git remote -v  
-1. git branch -v  
 1. git checkout chapter4  
-1. **Change or add files**  
-1. **Test app on local machine**
+1. **Change or add files using local machine tools**  
+1. **Test application using local machine tools**
 1. git add .  
 1. git commit -m 'commit title'  
 1. git push origin chapter4
-1. **Inspect change in GitHub**
+1. **Inspect changs in GitHub**
 
-## Comfort Commands
+### Comfort Commands
+
+1. git remote -v 
+1. git branch -v 
+1. git status
+
