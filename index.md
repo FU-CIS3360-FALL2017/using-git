@@ -21,4 +21,6 @@ https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-G
 1. git remote -v 
 1. git branch -v 
 1. git status
-
+1. git log
+1. git diff master chapter3
+1. git pull
