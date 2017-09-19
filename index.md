@@ -1,7 +1,7 @@
 DRAFT DOCUMENT
 ## Minimal Command Line git
 ### Introduction
-https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-Git 
+[Useful Reference](https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-Git) 
 
 ### Work Flow
 
