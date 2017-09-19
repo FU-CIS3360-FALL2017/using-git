@@ -1,9 +1,9 @@
 DRAFT DOCUMENT
-#Minimal Command Line git
-##Introduction
+# Minimal Command Line git
+## Introduction
 https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-Git 
 
-# Work Flow
+## Work Flow
 
 1. git clone https://github.com/FU-CIS3360-FALL2017/javajam-coffee-house-bp90347.git  
 1. git remote -v  
@@ -16,4 +16,4 @@ https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-G
 1. git push origin chapter4
 1. **Inspect change in GitHub**
 
-# Comfort Commands
+## Comfort Commands
