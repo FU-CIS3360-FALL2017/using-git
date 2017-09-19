@@ -5,6 +5,7 @@ https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-G
 WORK FLOW
 
 1. git clone https://github.com/FU-CIS3360-FALL2017/javajam-coffee-house-bp90347.git  
+1. git clone https://github.com/FU-CIS3360-FALL2017/javajam-coffee-house-bp90347.git 
 1. git remote -v  
 1. git branch -v  
 1. git checkout chapter4  
