@@ -1,0 +1,3 @@
+
+
+https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-Git
