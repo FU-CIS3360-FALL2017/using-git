@@ -18,14 +18,14 @@ DRAFT DOCUMENT
    Download a copy of a repository from GitHub to your local machine.
    
 1. **git checkout chapter4**  
-1. **Change or add files using local machine tools**  
-1. **Test application using local machine tools**
+1. Change or add files using local machine tools
+1. Test application using local machine tools
 1. **git add ***  
 1. **git commit -m 'commit title'**  
 1. **git push origin chapter4**
-1. **Inspect changes in GitHub**
-1. **Create a Pull Request in GitHub**
-1. **Respond to PR review**
+1. Inspect changes in GitHub
+1. Create a Pull Request in GitHub
+1. Respond to PR review
 
 ### Comfort Commands
 
