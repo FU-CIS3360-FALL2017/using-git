@@ -15,12 +15,12 @@ DRAFT DOCUMENT
 1. git commit -m 'commit title'  
 1. git push origin chapter4
 1. **Inspect changes in GitHub**
-1. create a Pull Request in GitHub
-1. response to PR review
+1. **Create a Pull Request in GitHub**
+1. **Response to PR review**
 
 ### Comfort Commands
 
-1. git remote -v 
+1. git remote -v l
 1. git branch -v 
 1. git status
 1. git log
