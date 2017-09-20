@@ -9,8 +9,14 @@ DRAFT DOCUMENT
 
    some text  
    
-1. git config --global user.email "dmurrell@faulkner.edu" 
+1. git config --global user.email "dmurrell@faulkner.edu"
+
+   some text 
+   
 1. git clone https://github.com/FU-CIS3360-FALL2017/javajam-coffee-house-bp90347.git  
+
+   some text 
+   
 1. git checkout chapter4  
 1. **Change or add files using local machine tools**  
 1. **Test application using local machine tools**
