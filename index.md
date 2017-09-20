@@ -23,7 +23,7 @@ DRAFT DOCUMENT
 
 ### Comfort Commands
 
-1. git remote -v l
+1. git remote -v
 1. git branch -v 
 1. git status
 1. git log
