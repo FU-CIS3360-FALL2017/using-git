@@ -15,6 +15,8 @@ DRAFT DOCUMENT
 1. git commit -m 'commit title'  
 1. git push origin chapter4
 1. **Inspect changes in GitHub**
+1. create a Pull Request in GitHub
+1. response to PR review
 
 ### Comfort Commands
 
