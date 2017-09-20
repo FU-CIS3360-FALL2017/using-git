@@ -6,6 +6,7 @@ DRAFT DOCUMENT
 ### Work Flow
 
 1. git config --global user.name "David Murrell" 
+
   some text
 1. git config --global user.email "dmurrell@faulkner.edu" 
 1. git clone https://github.com/FU-CIS3360-FALL2017/javajam-coffee-house-bp90347.git  
