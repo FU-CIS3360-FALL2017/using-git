@@ -16,7 +16,7 @@ DRAFT DOCUMENT
 1. git push origin chapter4
 1. **Inspect changes in GitHub**
 1. **Create a Pull Request in GitHub**
-1. **Response to PR review**
+1. **Respond to PR review**
 
 ### Comfort Commands
 
