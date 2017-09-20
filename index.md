@@ -5,7 +5,7 @@ DRAFT DOCUMENT
 
 ### Work Flow
 
-1. git config --global user.name "David Murrell" 
+1. git config --global user.name "David Murrell"
 
    some text  
    
