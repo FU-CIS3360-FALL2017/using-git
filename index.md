@@ -8,7 +8,7 @@ decided to bite the bullet and introduce as little command line Git as we could 
 [Useful Reference](https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-Git), I think, is a very good reference for that level and may even touch slightly on topics that we do not need here. If you view this page be sure to checkout the 
 three links in the recommendations section at the bottom of the page. They may be more helpful than this initial page itself.  
 
-As I have mentioned our requirements are minimal as far as GitHub and Git go, so I have listed in the following section the assumptions upon which the workability of the work is predicated.  
+As I have mentioned our requirements are minimal as far as GitHub and Git go, so I have listed in the following section the assumptions upon which the workability of the work flow is predicated.  
 ## Assumptions
 
 1. The reader has a GitHub account and access to a private repository already defined in GitHub where the work will be kept. 
@@ -29,7 +29,7 @@ accepted review, will merge the **work** branch into the **master** branch and d
 
    You should find yourself in a command line environment that is actually simulating a Unix/Linus command line. In this environment 
    you will be able to issue **git** commands. You must, however, type the word **git** before each command as indicated in the 
-   work flow commands following.
+   work flow commands following. You can also use Unix commands such as *ls* in this command line. 
 
 1. **git config --global user.name "David Murrell"**
 
@@ -70,8 +70,32 @@ accepted review, will merge the **work** branch into the **master** branch and d
 ### Comfort Commands
 
 1. **git remote -v**
+
+   List the names of the remote (web) repositories that are known to this git session. Git can use two different GitHub repositories
+   from which downloads (fetches) information and to which it will upload (push) information, but in our case they will be the
+   same and you will see that in the listing produced by this command. The letter v in the option -v stands for verbose and its
+   usage will get you a more complete (wordy) listing that without it.
+
 1. **git branch -v** 
+
+   List the branches that are present in the downloaded repository. The one preceding by the asterisk is the branch currently
+   in the **working directory**.
+   
 1. **git status**
+
+   Display paths that have differences between the **staging** area and the current **head** commit, paths that have differences
+   between the **working directory** and the **staging** area, and paths in the **working directory** that are not tracked by Git.
+   
 1. **git log**
-1. **git diff master chapter3**
+
+   Show the commit log.
+   
+1. **git diff master work**
+
+   Show differences between the **master** branch and the **work** branch. 
+   
 1. **git pull**
+
+   Incorporates changes from a remote repository into the current branch. If, after cloning a repository, you have made change to
+   the remote (GitHub) repository, this command will will bring down those changes and apply them to the current branch in Git.
+   
