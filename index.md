@@ -1,4 +1,6 @@
-DRAFT DOCUMENT
+In the repository *scripts* of this same organization there are two scripts designed to relieve the user of
+remembering a good bit of detail that is required in the work flow of this document. These scripts essentailly 
+automate the work flow herein in two parts.
 ## Minimal Command Line git
 ### Introduction
 This documnet attempts to layout a work flow for using GitHub and Git as our version control tool in this course which covers HTML, CSS
