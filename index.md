@@ -1,5 +1,5 @@
-In the repository *scripts* of this same organization there are two scripts designed to relieve the user of
-remembering a good bit of detail that is required in the work flow of this document. These scripts essentailly 
+In the repository [scripts]() of this same organization there are two scripts designed to relieve the user of
+remembering a good bit of keyboard detail that is required in the work flow of this document. These scripts essentailly 
 automate the work flow herein in two parts.
 ## Minimal Command Line git
 ### Introduction
@@ -7,8 +7,7 @@ This documnet attempts to layout a work flow for using GitHub and Git as our ver
 and a tad of JavaScript. The original hope was that, since our results were all plain text, we could build and maintain our work in
 GitHub alone, but issues such as privacy kept raising their heads causing roadblocks in such an approach, so I surrendered and 
 decided to bite the bullet and introduce as little command line Git as we could get by with. Along those lines 
-[Useful Reference](https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-Git), I think, is a very good reference for that level command line Git and may even touch slightly on topics that we do not need here. If you view this page be sure to checkout the 
-three links in the recommended readubgs section at the bottom of the page. They may be more helpful than this initial page itself.  
+[Useful Reference](https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-Git), I think, is a very good reference for that level command line Git and may even touch slightly on topics that we do not need here. If you view this page be sure to checkout the three links in the recommended readings section at the bottom of the page. They may be more helpful than the initial page itself.  
 
 As I have mentioned our requirements are minimal as far as GitHub and Git go, so I have listed in the following section the assumptions upon which the workability of the subsequent work flow is predicated.  
 ## Assumptions
@@ -19,16 +18,15 @@ As I have mentioned our requirements are minimal as far as GitHub and Git go, so
 1. The reader is prevented from merging the **work** branch into the **master** branch without an approved review from an administrator of the repository.  
 
 Briefly speaking, the work flow will go as follows:
-1. The repository will copied (cloned) to a directory (folder) on a local machine.
+1. The repository will be copied (cloned) to a directory (folder) on a local machine.
 1. There the application will be built, modified or enhanced using tools on the local machine, such as Notepad++, NetBeans, Android Studio, browser of your choice.
-1. After testing, the version of the application in the GitHub repository will be updated with with the modification from the local machine, and
+1. After testingon the local machine, the version of the application in the GitHub repository will be updated with the modificationd from the local machine, and
 1. A Pull Request comparing the **master** and **work** branches will be created.
 1. Following the review of the PR, the reader will either make requested changes or correction and resubmit the PR or, upon an 
 accepted review, will merge the **work** branch into the **master** branch and delete the **work** branch.
 
 ### Work Flow
 1. On your local machine, create a folder named, perhaps, **MyRepos**, right-click that folder and select **Git Bash Here**.
-
    You should find yourself in a command line environment that is actually simulating a Unix/Linus command line. In this environment 
    you will be able to issue **git** commands. You must, however, type the word **git** before each command as indicated in the 
    work flow commands following. You can also use Unix commands such as *ls* in this command line. Type *exit* to close the command line dialog.
@@ -75,8 +73,8 @@ accepted review, will merge the **work** branch into the **master** branch and d
 1. **git remote -v**
 
    List the names of the remote (web) repositories that are known to this git session. Git can use two different GitHub repositories
-   from which downloads (fetches) information and to which it will upload (push) information, but in our case they will be the
-   same and you will see that in the listing produced by this command. The letter v in the option -v stands for verbose and its
+   from which it downloads (fetches) information and to which it will upload (push) information, but in our case these will be the
+   same and you will see that in the listing produced by this command. The letter v in the option -v stands for *verbose* and its
    usage will get you a more complete (wordy) listing than without it.
 
 1. **git branch -v** 
