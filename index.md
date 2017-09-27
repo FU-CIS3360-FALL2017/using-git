@@ -1,4 +1,4 @@
-In the repository [scripts]() of this same organization there are two scripts designed to relieve the user of
+In the repository [scripts](https://github.com/FU-CIS3360-FALL2017/scripts.git) of this same organization there are two scripts designed to relieve the user of
 remembering a good bit of keyboard detail that is required in the work flow of this document. These scripts essentailly 
 automate the work flow herein in two parts.
 ## Minimal Command Line git
